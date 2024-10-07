@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework4</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">ARTISTS</a>
+      <nav class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="about.html" id="about">about</a>
+        <button class="open" id="open">Login</button>
+      </nav>
+    </nav>
+
+    <div id="app">
+      <div class="intro">
+        <h1>A PORTFOLIO SITE</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
+        <button>Learn More</button>
+      </div>
+      <div class="mediums">
+        <div class="work">
+          <i class=""></i>
+          <p class="work-heading">Watercolor</p>
+          <p class="work-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            magni rem iste, tempore ipsam illum,
+          </p>
+        </div>
+        <div class="work">
+          <i class=""></i>
+          <p class="work-heading">Sculpting</p>
+          <p class="work-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo
+            facilis id tempora, nulla, sapiente ex nam
+          </p>
+        </div>
+        <div class="work">
+          <i class=""></i>
+          <p class="work-heading">Oil Paint</p>
+          <p class="work-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut minus
+            eaque ad maiores, voluptatem deleniti dolore?
+          </p>
+        </div>
+      </div>
+      <div class="about-me">
+        <div class="about-me-text">
+          <h2>Meet The Artist</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+            nesciunt eius quaerat hic iste explicabo rem aut sint, consequatur
+            ut soluta, quasi tenetur accusantium iusto autem? Voluptatem
+            provident corrupti dignissimos. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Rem minima ducimus perspiciatis atque
+            iusto distinctio suscipit nostrum maxime totam doloremque
+            voluptatem, sunt saepe, ipsam magnam, cumque exercitationem
+            voluptatum. Officiis, deleniti?
+          </p>
+        </div>
+        <img src="/images/artist-doing-a-sketch-on-a-canvas.jpg" alt="artist" />
+      </div>
+    </div>
+
+
+	<div class="wrapper">
+        <span class="icon-close">
+			<div class="close-outline">X</div>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="email" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label ><input type="checkbox" >
+                    Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Log in</button>
+                <div class="login-register">
+                    <p>Don't Have an account ?
+                        <a href="#" class="register-link">Register</a></p>
+                    </p>
+                </div>
+            </form>
+        </div> 
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <input type="text" required>
+                    <label >Username</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label ><input type="checkbox" >
+                    I agree to the terms & conditions</label>
+                    
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <div class="login-register">
+                    <p>Already have an account ?
+                        <a href="#" class="login-link">Login</a></p>
+                    </p>
+                </div>
+            </form>
+        </div> 
+
+    </div>
+    <script type="module" src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

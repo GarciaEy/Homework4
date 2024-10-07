@@ -1,0 +1,157 @@
+#app {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(
+        to bottom,
+        rgba(7, 79, 87, 0.5) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/283237_588943ecc546db7cc5168e868a7848e7.jpg\,2000x2000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .intro h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .intro p {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .intro button {
+    background-color: #077187;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+  }
+
+  .mediums {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+    /* background-color: aliceblue; */
+    background-color: whitesmoke;
+  }
+
+  .mediums .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .mediums .work i {
+    width: fit-content;
+    font-size: 50px;
+    color: #333333;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    padding: 12px;
+  }
+
+  .mediums .work .work-heading {
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+  }
+
+  .mediums .work .work-text {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+    background-color: ivory;
+  }
+
+  .about-me img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(1, 42, 44, 0.5);
+  }
+
+  .about-me-text h2 {
+    font-size: 30px;
+    color: darkslategrey;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about-me-text p {
+    font-size: 15px;
+    color: #077187;
+    margin: 10px 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .about-artist {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+    background-color: rgba(4, 120, 126, 0.5);
+  }
+
+  .about-artist img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(1, 42, 44, 0.5);
+  }
+
+  .about-artist-text h2 {
+    font-size: 30px;
+    color: cornsilk;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about-artist-text p {
+    font-size: 15px;
+    color: darkslategray;
+    margin: 10px 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
